@@ -22,7 +22,7 @@ nsteps = 200   #疊代次數設定
 
 
 pos = matrix (nrow = length(EVIdata[,9]), ncol = nsteps+2)
-pos[,1] = EVIdata[,9]  ##設定第一欄為原始data
+pos[,1] = EVIdata[,9]  ##設定第一欄為原始data，EVIdata欄位請選取欲分析的主指標。
 
 
 ##Step 1: 2進位cloudflag版
